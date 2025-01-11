@@ -6,7 +6,7 @@ sudo steamos-readonly disable
 
 sudo pacman-key --init
 sudo pacman-key --populate archlinux
-udo pacman-key --populate holo
+sudo pacman-key --populate holo
 
 # Download and verify the BlackArch installer script
 curl -O https://blackarch.org/strap.sh
