@@ -24,3 +24,6 @@ sudo sed -i '/\[multilib\]/,/Include/s/^#//' /etc/pacman.conf
 
 echo "________STEP 7: Sync"
 sudo pacman -Syu
+
+echo "________STEP 8: Custom packages"
+sudo pacman -S --noconfirm aircrack-ng
