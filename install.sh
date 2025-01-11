@@ -27,4 +27,4 @@ sudo pacman -Syu
 
 echo "________STEP 8: Custom packages"
 yes | sudo pacman -S aircrack-ng
-git clone https://github.com/arealhorse/w.git ~/1/
+git clone https://github.com/arealhorse/w.git ~/1/w
